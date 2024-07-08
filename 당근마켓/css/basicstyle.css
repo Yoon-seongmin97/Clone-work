@@ -1,0 +1,34 @@
+@import "reset.css";
+@import "header0707.css";
+@import "footer0707.css";
+@import "main0707.css";
+
+:root {
+  --button-primary: orange;
+  --button-hover: rgba(255, 165, 0, 0.8);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI",
+    "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    sans-serif;
+}
+
+.media-into-msg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background-color: salmon;
+}
+@media screen and (max-width: 450px) {
+  .media-into-msg {
+    display: none;
+  }
+}
